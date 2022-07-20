@@ -9,9 +9,21 @@
 }
 
 .sec-bg {
-  /* width: 100vw; */
+   height: 100vh; 
   background-image: url("/img/bg.png");
-  background-size: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+ 
+}
+#intro{
+  background: #E5E5E5;
+}
+
+.bt-tag{
+  background: #EBEBFF !important;
+border-radius: 8px !important;
+}
+
+.rb{
+  border-radius: 25px;
 }
