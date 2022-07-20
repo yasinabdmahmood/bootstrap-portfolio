@@ -1,3 +1,17 @@
-.logo{
-    font-weight: 700 !important;
+* {
+  box-sizing: border-box;
+  /* margin: 0 !important;
+  padding: 0 !important; */
+}
+
+.logo {
+  font-weight: 700 !important;
+}
+
+.sec-bg {
+  /* width: 100vw; */
+  background-image: url("/img/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
