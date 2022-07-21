@@ -27,3 +27,31 @@ border-radius: 8px !important;
 .rb{
   border-radius: 25px;
 }
+.list-with-no-style{
+  list-style: none;
+}
+
+.language-items{
+  background: #F7F7F9;
+border-radius: 8px;
+}
+.about-my-self{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+}
+
+.form-section{
+  width: 100vw;
+  height: 100vh;
+  background: #6070FF;
+  background-image: url("/img/contact-form-background-shapes.svg");
+  background-size: contain;
+  border-radius: 100px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

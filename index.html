@@ -172,8 +172,9 @@
       </div>
     </section>
 
-    <section class="row">
-      <div class="row">
+    <section class="my-5 about-my-self">
+      <div class="row ">
+        <div class="col 2"></div>
         <div class="col-12 col-md-4 ">
           <h1 class="h1">About <br> Myself</h1>
           <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my 
@@ -189,47 +190,105 @@
           </div>  
           <button type="button" class="btn btn-outline-primary mt-4">Get my Resume</button>    
         </div>
-        <div class="col-12 col-md-7 mt-5 ">
-          <div class="dropdown pe-5 ">
-            <button class="btn dropdown-toggle btn-block w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Languages &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-              &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+        <div class="col-12 col-md-7">
+          <div class="accordion w-75" id="accordionExample">
+            <div class="accordion-item border-white my-5">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button border-bottom " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span class="h5">Languages</span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="d-flex p-0  list-with-no-style">
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/js.svg" class="language-items" alt=""></div>Javascript</li>
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/html.svg" class="language-items" alt=""></div>HTML</li>
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/css.svg" class="language-items" alt=""></div>Css</li>
+                   </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-white my-5">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="h5">Frameworks</span>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="d-flex p-0  list-with-no-style">
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/icons8-bootstrap.svg" class="language-items" alt=""></div>Bootstrap</li>
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/html.svg" class="language-items" alt=""></div>HTML</li>
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/css.svg" class="language-items" alt=""></div>Css</li>
+                   </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item  border-white my-5">
+              <h2 class="accordion-header " id="headingThree">
+                <button class="accordion-button border-bottom   collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span class="h5 ">Skills</span>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="d-flex p-0  list-with-no-style">
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/js.svg" class="language-items" alt=""></div>Javascript</li>
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/html.svg" class="language-items" alt=""></div>HTML</li>
+                    <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/css.svg" class="language-items" alt=""></div>Css</li>
+                   </ul>
+                </div>
+              </div>
             </div>
           </div>
-            <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <div class="dropdown-item">
-                <a href="#">
-                  <img src="img/js.jpg" alt="">
-                  Javascript
-                </a>
-              </div>
-              <div class="dropdown-item">
-                <a href="#">
-                  <img src="img/html.jpg" alt="">
-                  HTML
-                </a>
-              </div>
-              <div class="dropdown-item">
-                <a href="#">
-                  <img src="img/css.jpg" alt="">
-                  css
-                </a>
-              </div>
-            </div> -->
-
-
-          </div>
+          <!-- <div class="dropdown mt-3">
+            <button class="btn  dropdown-toggle border-bottom" type="button" id="book-dropdown" data-bs-toggle="dropdown">
+              Languages&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            </button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <ul class="dropdown-menu   w-100 border-white " aria-labelledby="book-dropdown">
+             <ul class="d-flex p-0  list-with-no-style">
+              <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/js.svg" class="language-items" alt=""></div>Javascript</li>
+              <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/html.svg" class="language-items" alt=""></div>HTML</li>
+              <li class="me-5 mt-3 pe-5 pb-4 language-items"><div><img src="/img/css.svg" class="language-items" alt=""></div>Css</li>
+             </ul>
+            </ul>
+          </div> -->
+          
+        </div>
         </div>
       </div>
     </section>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <section class="form-section ">
+      <div class="w-50 d-flex flex-column align-items-center" >
+        <h1 class="h1 text-white text-center">Contact me</h1>
+        <p class=" text-justify h5 text-white w-75">If you have an application you are interested in developing,
+           a feature that you need built or a project that needs coding.
+            I’d love to help with it</p>
+            <form class="mt-5 w-75 d-flex flex-column align-items-center ">
+              <div class="mb-3 w-100">
+                
+                <input type="email" class="form-control" id="exampleInputEmail1" value="Alexandra Loremipsum" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3 w-100">
+                
+                <input type="email" value="alexandra@gmail.com" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 w-100 ">
+                <textarea class="p-2 w-100" placeholder="Write your message here" name="" id=""  rows="5"></textarea>
+                
+              </div>
+              
+              <button type="submit" class="btn text-primary bg-white rounded">Get in touch</button>
+            </form>
+      </div>
+    </section>
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
     <!-- <script
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
