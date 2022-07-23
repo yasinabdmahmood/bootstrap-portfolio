@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0 !important;
+  padding: 0 !important; */
+}
+
+.logo {
+  font-weight: 700 !important;
+}
+
+.sec-bg {
+  height: 100vh;
+  background-image: url("/img/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#intro {
+  background: #e5e5e5;
+}
+
+.bt-tag {
+  background: #ebebff !important;
+  border-radius: 8px !important;
+}
+
+.rb {
+  border-radius: 25px;
+}
+
+.list-with-no-style {
+  list-style: none;
+}
+
+.language-items {
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+/* .about-my-self {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+}
+*/
+
+.form-section {
+  background-image: url("/img/contact-form-background-shapes.svg");
+  background-size: contain;
+  border-radius: 100px 0px 0px 0px;
+  background-repeat: no-repeat;
+}
